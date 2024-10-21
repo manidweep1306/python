@@ -5,4 +5,4 @@ l = []
 print('Enter the content in 1st list: ')
 for i in range(n):
     l.append(input())
-print(maxMin(l))
+print("largest and smallest in ",l,"is",maxMin(l))
