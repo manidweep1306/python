@@ -6,4 +6,5 @@ l = []
 print('Enter the content in 1st list: ')
 for i in range(n):
     l.append(input())
+l=list(set(l))
 max(l)
